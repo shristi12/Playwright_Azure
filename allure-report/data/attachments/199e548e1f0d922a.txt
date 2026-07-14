@@ -1,0 +1,7 @@
+Before all tests
+{
+  orders: [ '6a5501ea85b8849b49e5f5e6' ],
+  productOrderId: [ '6960eac0c941646b7a8b3e68' ],
+  message: 'Order Placed Successfully'
+}
+6a5501ea85b8849b49e5f5e6

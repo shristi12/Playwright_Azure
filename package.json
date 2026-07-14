@@ -1,0 +1,25 @@
+{
+  "name": "playwright_project_e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "APITests": "npx playwright test --grep @API",
+    "WebTest": "npx playwright test --grep @Web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "playwright": "^1.61.1"
+  }
+}
